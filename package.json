@@ -1,5 +1,5 @@
 {
-  "name": "basic-stl-generator",
+  "name": "basic-stl-generator-mk2",
   "version": "1.1.0",
   "description": "Basic utils to generate a STL file",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/javierbyte/basic-stl-generator.git"
+    "url": "git+ssh://git@github.com/nickdmansfield/basic-stl-generator.git"
   },
   "keywords": [
     "stl",
@@ -18,10 +18,10 @@
     "geometric",
     "3d"
   ],
-  "author": "hi@javier.xyz",
+  "author": "nickdmansfield@gmail.com",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/javierbyte/basic-stl-generator/issues"
+    "url": "https://github.com/nickdmansfield/basic-stl-generator/issues"
   },
-  "homepage": "https://github.com/javierbyte/basic-stl-generator#readme"
+  "homepage": "https://github.com/nickdmansfield/basic-stl-generator#readme"
 }
