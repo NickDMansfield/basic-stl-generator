@@ -16,28 +16,28 @@ export function STLCube(x = 0, y = 0, z = 0, xsize = 25, ysize = 25, zsize = 25,
 solid BASICSTLCUBEX${x}Y${y}Z${z}
   facet normal  0.0   0.0  ${nz(-1.0)}
     outer loop
-      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0 + zOffset)}
+      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0) + zOffset}
       vertex    ${nx(x + 1.0) + xOffset}   ${ny(y + 1.0) + yOffset}   ${nz(z + 0.0) + zOffset}
       vertex    ${nx(x + 1.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0) + zOffset}
     endloop
   endfacet
   facet normal  0.0   0.0  ${nz(-1.0)}
     outer loop
-      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0 + zOffset)}
+      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0) + zOffset}
       vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 1.0) + yOffset}   ${nz(z + 0.0) + zOffset}
       vertex    ${nx(x + 1.0) + xOffset}   ${ny(y + 1.0) + yOffset}   ${nz(z + 0.0) + zOffset}
     endloop
   endfacet
   facet normal  ${nx(-1.0)} 0.0   0.0
     outer loop
-      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0 + zOffset)}
+      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0) + zOffset}
       vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 1.0) + yOffset}   ${nz(z + 1.0) + zOffset}
       vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 1.0) + yOffset}   ${nz(z + 0.0) + zOffset}
     endloop
   endfacet
   facet normal  ${nx(-1.0)} 0.0   0.0
     outer loop
-      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0 + zOffset)}
+      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0) + zOffset}
       vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 1.0) + zOffset}
       vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 1.0) + yOffset}   ${nz(z + 1.0) + zOffset}
     endloop
@@ -72,14 +72,14 @@ solid BASICSTLCUBEX${x}Y${y}Z${z}
   endfacet
   facet normal  0.0  ${ny(-1.0)}  0.0
     outer loop
-      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0 + zOffset)}
+      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0) + zOffset}
       vertex    ${nx(x + 1.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0) + zOffset}
       vertex    ${nx(x + 1.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 1.0) + zOffset}
     endloop
   endfacet
   facet normal  0.0  ${ny(-1.0)}  0.0
     outer loop
-      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0 + zOffset)}
+      vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 0.0) + zOffset}
       vertex    ${nx(x + 1.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 1.0) + zOffset}
       vertex    ${nx(x + 0.0) + xOffset}   ${ny(y + 0.0) + yOffset}   ${nz(z + 1.0) + zOffset}
     endloop
